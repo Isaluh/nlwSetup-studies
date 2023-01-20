@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* mesma largura definida pelo str do html */
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 48px;
+
+  position: fixed;
+  width: 100%;
+}
+
+header div{
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo{
+  color: white;
+  font-size: 45px;
+  font-family: 'Inter';
+}
+
+body{
+  background-color: black;
+  height: 100vh;
+}
+
+button{
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #8b5cf6;
+  background-color: transparent;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%; /* altura da linha */
+
+  cursor: pointer;
+}
+
+#form-habits{
+  display: flex;
+
+  padding: 182px 48px 48px;
+  width: fit-content; /* encaixar na largura */
+}
+
+.habits{
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 60px;
+}
+
+.habit img{
+  height: 64p;
+  width: 64px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days{
+  display: flex;
+  margin-left: 32px;
+  gap: 48px;
+}
+
+.day{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.day div{
+  margin-bottom: 8px;
+
+  font-family: 'Roboto Mono';
+  font-size: 20px;
+  line-height: 125%;
+
+  color: #a1a1aa;
+  text-align: center;
+}
+
+input{
+  appearance: none; /* tirar a configuração original para modificações (nesse casso border-radius) */
+  -webkit-appearance: none; /* serve pra funcionar em qualquer navegador */
+
+  width: 64px;
+  height: 64px;
+
+  border: 2px solid #27272A;
+  border-radius: 8px;
+
+  background-color: #18181b;
+}
+input:checked{
+  background-color: #8b5cf6;
+  border: 2px solid #a78bfa;
+}
+
+@media (max-width: 570px){
+  button div{
+    display: none;
+  }
+}
