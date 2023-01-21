@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Habits é um app para ajudar a marcar os hábitos do dia a dia.
 
-- [Visite o projeto online](https://maykbrito.github.io/nlw-setup)
+- [Visite o projeto online](https://isaluh.github.io/nlwSetup-studies)
 
 ## 🔖 Layout
 
