@@ -46,4 +46,5 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-<h4 align='center'>By: Isaluh - feat: Rocketseat 🤍</h4> [Participe da comunidade rocket!](https://discord.gg/rocketseat)
+<h4 align='center'>By: Isaluh - feat: Rocketseat 🤍 | [Participe da comunidade rocket!](https://discord.gg/rocketseat) </h4> 
+
